@@ -19,7 +19,7 @@ RUN \
    curl http://ftp.uni-bayreuth.de/math/statlib/xlispstat/Src/3-52/xlispstat-3-52-20.tar.gz >xlispstat-3-52-20.tar.gz && \
    tar xzvf xlispstat-3-52-20.tar.gz &&\
    cd xlispstat-3-52-20 && \
-   configure && make && make install &&\
+   ./configure && make && make install &&\
    cd .. && rm -rf xlispstat-3-52-20 && \
    apt-get autoremove -y && \
    apt-get clean -y && \
