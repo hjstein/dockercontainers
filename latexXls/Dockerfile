@@ -17,7 +17,7 @@ RUN \
       gnuplot \
       tar gcc automake -y && \
    git clone https://github.com/jhbadger/xlispstat.git && \
-   cd xlispstat-3-52-20 && \
+   cd xlispstat && \
    ./configure && make && make install &&\
    cd .. && rm -rf xlispstat-3-52-20 && \
    apt-get purge tar gcc automake -y && \
