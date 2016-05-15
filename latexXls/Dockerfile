@@ -20,7 +20,6 @@ RUN \
    cd xlispstat && \
    ./configure && make && make install &&\
    cd .. && rm -rf xlispstat-3-52-20 && \
-   apt-get purge tar gcc automake -y && \
    apt-get autoremove -y && \
    apt-get clean -y && \
    apt-get autoclean -y
