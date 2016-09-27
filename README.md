@@ -15,3 +15,7 @@ Build of various docker containers.
      - git
  - latex2:
    - Same as latexbasic + gnuplot.
+ - latexXls:
+   - Same as latex2 + xlispstat.
+ - latexOctave:
+   - Same as latexXls + octave.
