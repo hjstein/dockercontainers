@@ -17,6 +17,8 @@ RUN \
       gnuplot \
       octave \
       octave-io \
+      octave-statistics \
+      octave-financial \
       poppler-utils \
       tar gcc automake -y && \
    git clone https://github.com/jhbadger/xlispstat.git && \
