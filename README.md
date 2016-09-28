@@ -18,4 +18,4 @@ Build of various docker containers.
  - latexXls:
    - Same as latex2 + xlispstat.
  - latexOctave:
-   - Same as latexXls + octave.
+   - Same as latexXls + octave + poppler-utils.
