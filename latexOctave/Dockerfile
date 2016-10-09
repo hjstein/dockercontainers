@@ -3,6 +3,8 @@ FROM ubuntu:16.04
 MAINTAINER Harvey Stein <hjstein@gmail.com>
 
 RUN \
+   apt-get update -y && \
+   apt-get install software-properties-common && \
    add-apt-repository ppa:octave/stable && \
    apt-get update -y && \
    apt-get install \
