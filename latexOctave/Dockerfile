@@ -9,7 +9,6 @@ RUN \
    apt-get install \
       make \
       perl \
-      latex-beamer \
       texlive-latex-recommended \
       texlive-bibtex-extra \
       texlive-fonts-extra \
