@@ -5,7 +5,6 @@ MAINTAINER Harvey Stein <hjstein@gmail.com>
 RUN \
    apt-get update -y && \
    apt-get install software-properties-common -y && \
-   add-apt-repository ppa:octave/stable && \
    apt-get update -y && \
    apt-get install \
       make \
