@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:24.04
 
 MAINTAINER Harvey Stein <hjstein@gmail.com>
 
@@ -7,10 +7,10 @@ RUN \
    apt-get install \
       make \
       perl \
-      latex-beamer \
       texlive-latex-recommended \
       texlive-bibtex-extra \
       texlive-fonts-extra \
+      texlive-font-utils \
       transfig \
       ghostscript \
       git \
