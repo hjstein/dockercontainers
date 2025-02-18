@@ -12,6 +12,7 @@ RUN \
       texlive-latex-recommended \
       texlive-bibtex-extra \
       texlive-fonts-extra \
+      texlive-font-utils \
       transfig \
       ghostscript \
       git \
